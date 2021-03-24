@@ -5,7 +5,7 @@ package cosc250.firststeps
  * Rotate a list N places to the left. For instance 
  * rotate(3, List(1, 2, 3, 4, 5, 6)) would be List(4, 5, 6, 1, 2, 3)
  */
-def rotate[T](list:List[T]):List[T] = ???
+def rotate[T](list:List[T], by:Int):List[T] = ???
 
 /**
  * Pack consecutive duplicates in a list into sublists
