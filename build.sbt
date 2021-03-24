@@ -5,5 +5,5 @@ lazy val root = (project in file(".")).
     scalaVersion := "3.0.0-RC1"
   )
 
-libraryDependencies += "org.scalameta" %% "munit" % "0.7.22% Test
+libraryDependencies += "org.scalameta" %% "munit" % "0.7.22" % Test
 testFrameworks += new TestFramework("munit.Framework")
